@@ -192,48 +192,55 @@ li{
 
 /**************************SECCIÓN NUEVOS INGRESOS***************************/
 
+.nuevos-ingresos{
+    background-image: url(../image/nuevos-gatos.webp);
+    height: 500px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    cursor: pointer;
+}
 
-    .nuevos-ingresos{
-        background-image: url(../image/nuevos-gatos.webp);
-        height: 500px;
-        background-size: 100% 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 1rem;
-        cursor: pointer;
-    }
+.nuevos-ingresos:hover{
+    box-shadow: 3px -3px 3px rgb(0, 0, 0, 0.6);
+    border: 2px solid rgb(0, 0, 0, 0.6);
+   
+}
 
-    .nuevos-ingresos:hover{
-        box-shadow: 3px -3px 3px rgb(0, 0, 0, 0.6);
-        border: 2px solid rgb(0, 0, 0, 0.6);
-       
-    }
+.nuevos-ingresos h3{
+    font-size: 2.5rem;
+    color: orange;
+    font-family: 'Phudu', cursive;
+    font-weight: 900;
+    text-shadow: 3px -3px 3px black;
+}
 
-    .nuevos-ingresos h3{
-        font-size: 2.5rem;
-        color: orange;
-        font-family: 'Phudu', cursive;
-        font-weight: 900;
-        text-shadow: 3px -3px 3px black;
-    }
+.titulo-nuevos-ingresos{
+    text-align: center;
+    background-color: black;
+    color: orange;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 900;
 
-    .titulo-nuevos-ingresos{
-        text-align: center;
-        background-color: black;
-        color: orange;
-        font-family: 'Bebas Neue', sans-serif;
-        font-weight: 900;
+}
 
-    }
+/**********este es el contenido js que aparecerá al tocar la imagen estos son nuestros nuevos amigos****/
 
-   .gatos-nuevos-estilo{
-    color: black;
-    background-color: aquamarine;
-    border-radius: 40px;
-    font-family: Verdana;
-    font-weight: bold;
+.contenedor-nuevos-amigos{
+    background-color: black;
+    border-radius: 30px;
     padding: 1rem;
+
+}
+
+.gatos-nuevos-estilo{
+    background-color: orange;
+    text-shadow: 1px 1px 1px orangered;
+    font-family: 'Anton', sans-serif;
+    padding: 1rem;
+    letter-spacing: 0.3rem;
 
    }
 
@@ -254,30 +261,34 @@ li{
 
    .btn-nuevos-ver a{
     background-color: black;
-    color: yellowgreen;
+    color: orange;
+    font-family: 'Phudu', cursive;
    padding: 2rem;
    font-size: 1.5rem;
-    font-family: fantasy;
+   border: 1px solid orange;
    }
 
    .btn-nuevos-ver a:hover{
     color: yellow;
+    border: 1px solid yellow;
    }
 
    .btn-ocultar-gato{
     background-color: black;
-    color: yellowgreen;
+    color: orange;
     border:0 ;
-    border-radius: 20px;
     padding: 15px 10px;
-    font-family: fantasy;
+    font-family: 'Phudu', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
    }
 
    .btn-ocultar-gato:hover{
     color: yellow;
+    border: 2px solid yellow;
    }
-
 
 /****************************SECCIÓN ADOPTAR***********************/
 
