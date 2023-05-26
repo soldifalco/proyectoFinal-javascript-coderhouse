@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <!----------------------NAVBAR----------------->
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-black">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon icono-nav"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+    
+                <li class="nav-item">
+                  <a class="nav-link items-nav" href="./index.html">HOME</a>
+                </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link items-nav" href="./pages/adopcion.html">ADOPTAME </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link items-nav" href="./pages/e-commerce.html">NUESTROS PRODUCTOS</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+
+        <!-----------------------------BANNER DE BIENVENIDA-------------------------------->
+
+        <section class="banner">
+
+            <div class="capa"></div>
+    
+           
+    
+        </section>
+
+        <div class="titulo-logo">
+            <h1> REFUGIO HUELLITAS</h1>
+            <img src="./image/huella-logo.png" alt="huella-logo">
+
+        </div>
+    
+        </header>
+
+        <main>
+
+          <div class="cartel-gatitos">
+            <p>
+              El Hogar cumple un rol fundamental en la sociedad al albergar gatitos que, de otra forma continuarían en situación de alto riesgo en las calles. Muchos de ellos vienen de hogares en los cuales ya no pueden estar, en otros casos, directamente siempre estuvieron en las calles, producto del abandono y de la falta de políticas públicas respecto a la castración y tenencia responsable. En el Hogar, los gatitos se recuperan hasta estar en condiciones óptimas para ser adoptados por familias que buscan mascotas, función que también es ejercida por el hogar por medio de difusión, participación en eventos, etc. 
+      
+              El principal objetivo del Hogar es ser un lugar de transición para los felinos rescatados en situaciones de alto riesgo, recuperar su salud y sociabilizarlos a fin de que sean adoptados en el menor lapso posible.
+             </p>
+             <img src="./image/gato-fondo.png" alt="gato-fondo">
+      
+          </div>
+      
+          <div class="dona">
+            <h2>TU AYUDA ES FUNDAMENTAL</h2>
+            <h4>
+      Tus colaboraciones permiten que HUELLITAS siga rescatando gatos de la calle, mejorando su calidad de vida y encontrándoles hogares permanentes.
+      </h4>
+      <button type="button" class="btn  btn-productos btn-warning"><a href="./pages/e-commerce.html">Colabora comprando nuestros productos</a></button>
+      
+      </div>
+
+      <div class="nuevos-ingresos" id="btn-mostrar-gato" onclick="mostrar();">
+        <h3>ESTOS SON NUESTROS NUEVOS AMIGOS</h3>
+      </div>
+      
+      <div id="img-gato-mostrar">
+      
+      
+      
+      <section class="container contenedor-nuevos-amigos d-flex justify-content-center gap-3 mb-2 text-center">
+      
+        <div class="card gatos-nuevos-estilo" style="width: 18rem;">
+            <img src="./image/bruno-nuevo.webp" class="card-img-top" alt="Bruno">
+            <div class="card-body bg-black">
+              <h5 class="card-title gatos-nuevos-estilo text-black">Bruno</div>
+      
+          </div>
+      
+          <div class="card gatos-nuevos-estilo" style="width: 18rem;">
+            <img  src="./image/pucky-nuevo.webp" class="card-img-top" alt="pucky">
+            <div class="card-body bg-black">
+              <h5 class="card-title gatos-nuevos-estilo text-black">Pucky</h5></div>
+      
+          </div>
+      
+          <div class="card gatos-nuevos-estilo" style="width: 18rem;">
+            <img  src="./image/simon-nuevo.webp" class="card-img-top" alt="simon">
+            <div class="card-body bg-black">
+              <h5 class="card-title gatos-nuevos-estilo text-black">Simón</h5></div>
+      
+          </div>
+      
+          <button class="btn-nuevos-ver"><a href="./pages/adopcion.html">Ver más</a></button>
+      
+      </section>
+      
+      <button class="btn-ocultar-gato" id="btn-ocultar-gato" onclick="ocultar();" >Volver atrás</button>
+      
+      </div>
+
+      <div class="adoptar">
+        <a href="./pages/adopcion.html">ADOPTA</a>
+      </div>
+
+      <!-----------------FORMULARIO DE CONTACTO------------------------------------->
+
+      <section>
+
+
+        <form action="">
+          <h3 class="titulo-formulario">CONTACTATE CON NOSOTROS</h3>
+
+
+          <label for="nombre"></label>
+          <input    type="text" id="nombre" placeholder="Escriba su nombre aqui" required>
+        
+          <label for=""></label>
+          <input     type="text" id="Apellido" placeholder="Escriba su apellido aqui" required>
+        
+        
+          <label for="nombre"></label>
+                <input     type="email" id="email" placeholder="Escriba su e-mail aqui" required>
+        
+                <label for="nombre"></label>
+                <input   type="text" id="telefono" placeholder="Escriba su número aqui" required>
+        
+        
+               
+        
+        <button class="btn-form" type="submit" value="Enviar">Enviar</button>
+        <button class="btn-form" type="reset" value="Reset">Reset</button>
+
+        
+        </form>
+        
+               </section>
+
+        </main>
+
+        <footer>
+
+          <div class="footer-logo">
+
+            <h4>REFUGIO HUELLITAS</h4>
+            <img src="./image/huella-logo.png" alt="huella-logo">
+
+          </div>
+
+
+          <div class="footer-items">
+            <a href="./index.html">HOME</a>
+            <a href="./pages/adopcion.html">ADOPCIÓN</a>
+            <a href="./pages/e-commerce.html">E-COMMERCE</a>
+          </div>
+
+          
+        </footer>
+      
+      
+      
+    
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js " integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN " crossorigin="anonymous "></script>
+
+</body>
+</html>
