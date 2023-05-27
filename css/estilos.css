@@ -60,7 +60,7 @@ li{
 }
 
 .titulo-logo h1{
-    color: yellow;
+    color: rgb(238, 238, 131);
     text-shadow: 3px -3px 3px orangered;
     font-family: 'Phudu', cursive;
     font-size: 3rem;
@@ -69,7 +69,7 @@ li{
 }
 
 .titulo-logo img{
-    width: 60px;
+    width: 50px;
 }
 
 .banner {
@@ -89,7 +89,7 @@ li{
         position: absolute;
         top: 0;
         left: 0;
-        background: rgb(0, 0, 0, 0.6);
+        background: rgb(0, 0, 0, 0.3);
     }
 
     @keyframes banner {
@@ -117,15 +117,14 @@ li{
     }
 
 
-    /***********************MAIN PÁGINA INDEX******************/
-
-    .cartel-gatitos{
+    
+       .cartel-gatitos{
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin:2rem ;
-        padding: 3rem;
+        margin:1rem ;
+        padding: 1rem;
         border-radius: 10%;
         gap: 1rem;
     }
@@ -133,8 +132,8 @@ li{
     .cartel-gatitos p{
         font-size: 1rem;
         line-height: 2rem;
-        font-family: 'Poppins', sans-serif;
-        color: yellow;
+        font-family: 'Anton', sans-serif;
+        color: rgb(234, 234, 150);
         text-shadow: 1px 1px 1px black;
         background-color: black;
         box-shadow: 2px -2px 2px gray;
@@ -148,36 +147,41 @@ li{
         filter:drop-shadow(-24px 6px 112px  rgb(234, 234, 150) );
     
     }
+    
+    /*****************MAIN PÁGINA INDEX******************/
+
+
 
     .dona{
         text-align: center;
         background-color: black;
         margin: 1rem;
+        padding: 1rem;
         border-radius: 40px;
     }
     
     
-    .dona h2{
+    .dona h3{
     font-family: 'Phudu', cursive;
-    color: orange;
+    color: rgb(217, 147, 16);
     font-size: 2rem;
     font-weight: bold;
     }
     
     
-    .dona h4{
-    font-family: 'Phudu', cursive;
-    font-weight: 800;
-    color: yellow;
+    .dona p{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    color: rgb(234, 234, 150);
     font-size: 1.2rem;
     text-shadow: 1px 1px 1px black;
     
     }
 
     .btn-productos{
-    font-family: 'Bebas Neue', sans-serif;
-        font-weight: 900;
-        font-size: 1.3rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: 900;
+    font-size: 1.3rem;
     
     }
 
@@ -201,7 +205,8 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: 1.5rem;
+    padding: 1rem;
     cursor: pointer;
 }
 
@@ -212,10 +217,10 @@ li{
 }
 
 .nuevos-ingresos h3{
-    font-size: 2.5rem;
-    color: orange;
+    font-size: 2rem;
+    color: rgb(234, 234, 150);
     font-family: 'Phudu', cursive;
-    font-weight: 900;
+    font-weight: 400;
     text-shadow: 3px -3px 3px black;
 }
 
@@ -328,9 +333,9 @@ li{
 
 .titulo-formulario{
     margin: 0.5rem;
-    font-family: 'Phudu', cursive;
+    font-family: 'Bebas Neue', sans-serif;
     text-align: center;
-    color: orange;
+    color: rgb(234, 234, 150);
     text-shadow: 1px 1px 1px black;
 }
 
@@ -351,7 +356,7 @@ form input{
     font-family: 'Anton', sans-serif;
     border-radius: 10px;
     padding: 10px;
-    border: 2px solid orange;
+    border: 2px solid rgb(234, 234, 150);
 
 }
 
@@ -360,12 +365,12 @@ form textarea{
     width: 300px;
     height: 200px;
     border-radius: 10px;
-    border: 2px solid orange;
+    border: 2px solid rgb(234, 234, 150);
 
 }
 
 .btn-form{
-    background-color: orangered;
+    background-color: rgb(238, 238, 131);
     color: black;
     font-weight: 600;
     font-family: 'Phudu', cursive;
@@ -376,8 +381,8 @@ form textarea{
 }
 
 .btn-form:hover{
-    color: orangered;
-    background-color: orange;
+    color: red;
+    background-color: yellow;
 }
 
 /**********************************FOOTER*********************************************/
@@ -393,23 +398,23 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    gap: 0.3rem;
 }
 
 footer h4{
-    color: orange;
+    color: rgb(238, 238, 131);
     font-family: 'Phudu', cursive;
-    font-weight: 800;
+    font-weight: 400;
     text-shadow: 1px 1px 1px yellow;
 
 }
 
 footer img{
-    width: 40px;
-    gap: 1rem;
+    width: 30px;
 }
 
 .footer-items{
-    margin: 1rem;
+    margin: 0.3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -417,17 +422,78 @@ footer img{
 }
 
 .footer-items a {
-    color: yellow;
-    font-weight: 800;
-    font-family: 'Phudu', cursive;
+    color: rgb(234, 234, 150);
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+
 
 }
 
 .footer-items a:hover{
-    color: orangered;
-    border: 1px solid orangered;
-    border-radius: 10px;
-    padding: 3px;
+    color: yellow;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 1px;
 
 }
 
+
+
+/************************MEDIAQUERIES***********************************************/
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .titulo-logo h1{
+        font-size: 2rem;
+        font-weight: 400;
+    
+    }
+    
+    .titulo-logo img{
+        width: 30px;
+    }
+
+    .cartel-gatitos{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+
+    .cartel-gatitos img{
+        width: 300PX;
+
+}
+
+.dona h3{
+    font-size: 1.5rem;
+}
+
+.dona p{
+    font-size: 0.8rem;
+}
+
+.btn-productos{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    
+    }
+
+
+    .nuevos-ingresos h3{
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    
+    .contenedor-nuevos-amigos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+   
+
+   
+
+}
