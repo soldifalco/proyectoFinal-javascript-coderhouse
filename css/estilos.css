@@ -74,7 +74,7 @@ li{
 
 .banner {
     width: auto;
-    margin: 2rem;
+    margin: 1rem;
     border-radius: 40px;
     height: 600px;
     animation: banner 10s infinite linear alternate;
@@ -443,6 +443,12 @@ footer img{
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
+
+    .banner{
+        margin: 0;
+        border-radius: 0;
+    }
+
     .titulo-logo h1{
         font-size: 2rem;
         font-weight: 400;
@@ -456,6 +462,7 @@ footer img{
     .cartel-gatitos{
         display: flex;
         flex-direction: column;
+        margin: 0.2rem;
     }
     
     
@@ -465,8 +472,12 @@ footer img{
 
 }
 
+.dona{
+margin: 0.2rem;
+}
+
 .dona h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .dona p{
@@ -480,10 +491,14 @@ footer img{
     
     }
 
+.nuevos-ingresos{
+    margin: 0.2rem;
+    border-radius: 5px;
+}
 
     .nuevos-ingresos h3{
-        font-size: 1.3rem;
-        font-weight: 400;
+        font-size: 1.2rem;
+        font-weight: 800;
     }
     
     .contenedor-nuevos-amigos{
@@ -491,6 +506,16 @@ footer img{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    .adoptar{
+        margin: 0.2rem;
+        border-radius: 5px;
+        padding: 0.8rem;
+    }
+
+    form{
+        margin: 0.5rem;
     }
    
 
