@@ -48,7 +48,7 @@ li{
     color: orange;
 }
 
-/***************************BANNER PÁGINA INDEX**********************/
+/***************************BANNER CON ANIMACIÓN PÁGINA INDEX**********************/
 
 
 .titulo-logo{
@@ -73,9 +73,6 @@ li{
 }
 
 .banner {
-    width: auto;
-    margin: 1rem;
-    border-radius: 40px;
     height: 600px;
     animation: banner 10s infinite linear alternate;
     background-size: 100% 100%;
