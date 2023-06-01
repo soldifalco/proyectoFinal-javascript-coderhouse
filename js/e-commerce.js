@@ -144,6 +144,24 @@ let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
     comprar.addEventListener("click", () =>{
 
+        //librería toastify realiza animación con una notificación emergente al tocar el botón comprar
+
+        Toastify({
+            text: "Producto agregado",
+            duration: 3000,
+            newWindow: true,
+            close: true,
+            gravity: "top", 
+            position: "left", 
+            stopOnFocus: true, 
+            style: {
+              background: "black",
+              color: "orange",
+              borderRadius: "30px", 
+            },
+            onClick: function(){} 
+          }).showToast();
+
         //función para que me figure el producto por cantidades en numero:
 
         const repeat = carrito.some((repeatproducto) => repeatproducto.id === producto.id);
@@ -196,10 +214,19 @@ const modalBtn = document.createElement("h4");
 modalBtn.innerText = "x";
 modalBtn.className = "modal-header-btn";
 
-//funcion para que al tocar el boton x me cierre el modal
+//funcion para que al tocar el boton "x" me cierre el modal
 
 modalBtn.addEventListener("click" , () => {
     modalContenido.style.display = "none";
+
+//sweet alert - alerta cuando elimine el carrito.
+
+Swal.fire(
+    'Estas seguro?',
+    'se eliminará tu compra',
+    'question'
+  )
+  
 });
 
 
@@ -269,30 +296,6 @@ const eliminarProducto = () => {
     savelocal();
 };
 
-//función para que un boton me vaya mostrando las cantidades a medida que se vayan agregando en el carrito
 
-const carritoContent = () => {
-    cantidadCarrito.style.display = "block";
-    cantidadCarrito.innerText = carrito.length;
-
-    const  carritoLength = carrito.length;
-
-    localStorage.setItem("carritoLength", JSON.stringify(carritoLength))
-
-
-    cantidadCarrito.innerText = JSON.parse(localStorage.getItem("carritoLength"));
-};
-
-
-//////////////////////LOCAL STORAGE///////////////////////////////////
-
-//SET ITEM
-const savelocal = () => {
-localStorage.setItem("carrito",JSON.stringify(carrito));
-
-};
-carritoContent();
-
-JSON.parse(localStorage.getItem("carrito"));
 
 

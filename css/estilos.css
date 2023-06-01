@@ -457,10 +457,7 @@ form textarea{
 
     }
 
-    .colaboradores{
-
-        background-image: url(..);
-    }
+   
 
     .colaboradores h3{
     color: rgb(232, 232, 148);
@@ -482,17 +479,9 @@ form textarea{
         font-size: 1.3rem;
         text-align: center;
         line-height: 2rem;
-
-     
-
     }
 
-   
-
-
-
-
-    /*******************página carrito*********************************/
+    /*******************página E-commerce*********************************/
 
 .nav-container{
     position: sticky;
@@ -504,7 +493,7 @@ form textarea{
     display: flex;
     justify-content: space-between;
     height: 12vh;
-    background-color: rgba(0, 0, 0, 0.231);
+    background-color: rgba(0, 0, 0, 0.762);
 }
 
 .navbar-logo{
@@ -523,37 +512,17 @@ form textarea{
     margin-right: 20px;
     margin-top: 3.5vh;
     cursor: pointer;
-}
+    color: rgb(212, 160, 63);
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 900;
 
-.banner-carrito{
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-    url(../image/gato-guiño.jpg);
+
 }
 
 .banner-container{
     text-align: center;
     padding: 15% 0;
 
-}
-
-.banner-carrito h3{
-    margin: 0;
-    color: rgb(217, 147, 16);
-    font-family: 'Bebas Neue', sans-serif;
-    text-shadow: 3px 3px 3px orangered;
-    font-weight: bold;
-
-}
-
-.banner-carrito p{
-    font-size: 30px;
-    font-family: 'Bebas Neue', sans-serif;
-    color: rgb(232, 232, 148);
-    opacity: 0.7;
-    text-shadow: 1px 1px 1px orangered;
 }
 
 
