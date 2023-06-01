@@ -1,5 +1,5 @@
-//comienzo el ecommerce haciendo los arrays de mis productos para poder mostralos en la página luego
 
+//comienzo el ecommerce haciendo los arrays de mis productos para poder mostralos en la página luego
 const contenedorProductos = document.getElementById("contenedor-productos");
 const verCarrito = document.getElementById("ver-carrito");
 const modalContenido = document.getElementById("modal-header");
@@ -8,8 +8,7 @@ const cantidadCarrito = document.getElementById("cantidad-carrito");
 
 
 const productos = [
-    {
-        id: "cama-1",
+     {  id: "cama-1",
         imagen: "../image/cama-1.jpg",
         nombre: "cama estilo polar",
         precio: 20000,
@@ -108,6 +107,7 @@ const productos = [
 ];
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
 
 
 
@@ -295,4 +295,4 @@ carritoContent();
 
 JSON.parse(localStorage.getItem("carrito"));
 
-//get item
+

@@ -1,0 +1,9 @@
+[
+    {"id": "pimero", "nombre": "carlos Gutierrez", "localidad": "Caballito"},
+    {"id": "segundo", "nombre": "Yesica Suarez", "localidad": "Ramos mejía"},
+    {"id": "tercero", "nombre": "Diego Peres", "localidad": "Morón"},
+    {"id": "cuarto", "nombre": "Jimena Gonzalez", "localidad": "San Miguel"},
+    {"id": "quinto", "nombre": "Pedro Rodriguez", "localidad": "San Martín"},
+    {"id": "sexto", "nombre": "Adriana Quinteros", "localidad": "Flores"}
+
+]
