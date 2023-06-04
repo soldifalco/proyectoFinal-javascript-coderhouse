@@ -855,6 +855,11 @@ margin: 0.2rem;
         display: flex;
         flex-direction: column;
     }
+
+    .modal-header img{
+        width: 150px;
+        border-radius: 20px;
+    }
    
 
 }
