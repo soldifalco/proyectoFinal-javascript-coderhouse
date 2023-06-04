@@ -1,5 +1,7 @@
 
 //comienzo el ecommerce haciendo los arrays de mis productos para poder mostralos en la página luego
+
+
 const contenedorProductos = document.getElementById("contenedor-productos");
 const verCarrito = document.getElementById("ver-carrito");
 const modalContenido = document.getElementById("modal-header");
@@ -116,6 +118,8 @@ let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 
     //foreach para que me recorra el array
+
+
     productos.forEach(producto => {
 
         //este será el div contenedor de cada producto:
@@ -187,7 +191,6 @@ let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
     }
     console.log(carrito);
     carritoContent();
-    savelocal();
 
     });
 
@@ -293,7 +296,6 @@ const eliminarProducto = () => {
     });
     pintarCarrito();
     carritoContent();
-    savelocal();
 };
 
 

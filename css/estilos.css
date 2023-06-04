@@ -489,7 +489,7 @@ form textarea{
     top: 0;
 }
 
-.navbar{
+.navbar-ecommerce{
     display: flex;
     justify-content: space-between;
     height: 12vh;
@@ -754,6 +754,16 @@ footer img{
 
 }
 
+.footer-derechos{
+    color: rgb(234, 236, 97);
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 0.5rem;
+
+
+}
+
 
 
 /************************MEDIAQUERIES***********************************************/
@@ -836,6 +846,15 @@ margin: 0.2rem;
     }
    
 
+    .contenedor-productos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal-header{
+        display: flex;
+        flex-direction: column;
+    }
    
 
 }
